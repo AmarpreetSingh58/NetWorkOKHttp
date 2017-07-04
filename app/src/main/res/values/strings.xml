@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NetworkingOKhttp</string>
+    <string name="serach">Search</string>
+    <string name="username">UserName</string>
+    <string name="id">Id</string>
+    <string name="profilelink">Profile Link</string>
+    <string name="followers_url">Followers</string>
+    <string name="following_url">Follwing</string>
+    <string name="gists_url">Gists</string>
+    <string name="starred_url">Starred</string>
+    <string name="subscriptions_url">Subscriptions</string>
+    <string name="organizations_url">Organization</string>
+    <string name="repos_url">Repos</string>
+    <string name="events_url">Events</string>
+    <string name="received_events_url">Recieved Events</string>
+    <string name="usertype">Type</string>
+    <string name="site_admin">Admin</string>
+    <string name="score">Score</string>
+</resources>

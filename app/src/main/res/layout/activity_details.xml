@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amarpreetsinghprojects.networkingokhttp.DetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/detailsprofileImage"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailsUsername"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:layout_marginBottom="8dp"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/id"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsId"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/profilelink"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsprofileLink"
+                    android:textColorLink="@color/urlColor"
+                    android:textColorHighlight="@color/urlclickColor"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/usertype"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsuserType"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/following_url"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsFollowingTV"
+                    android:textColorLink="@color/urlColor"
+                    android:textColorHighlight="@color/urlclickColor"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/followers_url"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsFollowers"
+                    android:textColorLink="@color/urlColor"
+                    android:textColorHighlight="@color/urlclickColor"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/gists_url"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsGist"
+                    android:textColorLink="@color/urlColor"
+                    android:textColorHighlight="@color/urlclickColor"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/starred_url"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsStarred"
+                    android:textColorLink="@color/urlColor"
+                    android:textColorHighlight="@color/urlclickColor"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/subscriptions_url"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsSubscription"
+                    android:textColorLink="@color/urlColor"
+                    android:textColorHighlight="@color/urlclickColor"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/organizations_url"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsOrganization"
+                    android:textColorLink="@color/urlColor"
+                    android:textColorHighlight="@color/urlclickColor"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/repos_url"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsRepos"
+                    android:textColorLink="@color/urlColor"
+                    android:textColorHighlight="@color/urlclickColor"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/events_url"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsEvents"
+                    android:textColorLink="@color/urlColor"
+                    android:textColorHighlight="@color/urlclickColor"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/received_events_url"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsRecievedEvents"
+                    android:textColorLink="@color/urlColor"
+                    android:textColorHighlight="@color/urlclickColor"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/score"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsScore" />
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="4dp">
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/site_admin"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"/>
+                <TextView android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/detailsAdmin"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
