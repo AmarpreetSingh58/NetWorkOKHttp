@@ -2,6 +2,7 @@ package com.amarpreetsinghprojects.networkingokhttp;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -50,4 +51,6 @@ public class DetailsActivity extends AppCompatActivity {
         site_admin.setText(detailinfo.getStringExtra("site_admin"));
         score.setText(detailinfo.getStringExtra("score"));
     }
+
+
 }

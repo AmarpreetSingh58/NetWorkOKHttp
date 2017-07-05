@@ -39,7 +39,8 @@
                 android:layout_weight="1"
                 android:id="@+id/resultSingleItemurlTV"
                 android:textColorLink="@color/urlColor"
-                android:textColorHighlight="@color/urlclickColor"/>
+                android:textColorHighlight="@color/urlclickColor"
+                android:autoLink="web"/>
         </LinearLayout>
 
     </LinearLayout>

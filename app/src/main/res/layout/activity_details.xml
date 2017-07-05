@@ -46,6 +46,7 @@
                     android:gravity="end"/>
                 <TextView android:layout_width="0dp"
                     android:layout_weight="2"
+                    android:autoLink="web"
                     android:id="@+id/detailsprofileLink"
                     android:textColorLink="@color/urlColor"
                     android:textColorHighlight="@color/urlclickColor"/>
@@ -70,6 +71,7 @@
                     android:gravity="end"/>
                 <TextView android:layout_width="0dp"
                     android:layout_weight="2"
+                    android:autoLink="web"
                     android:id="@+id/detailsFollowingTV"
                     android:textColorLink="@color/urlColor"
                     android:textColorHighlight="@color/urlclickColor"/>
@@ -84,6 +86,7 @@
                 <TextView android:layout_width="0dp"
                     android:layout_weight="2"
                     android:id="@+id/detailsFollowers"
+                    android:autoLink="web"
                     android:textColorLink="@color/urlColor"
                     android:textColorHighlight="@color/urlclickColor"/>
             </TableRow>
@@ -96,6 +99,7 @@
                     android:gravity="end"/>
                 <TextView android:layout_width="0dp"
                     android:layout_weight="2"
+                    android:autoLink="web"
                     android:id="@+id/detailsGist"
                     android:textColorLink="@color/urlColor"
                     android:textColorHighlight="@color/urlclickColor"/>
@@ -109,6 +113,7 @@
                     android:gravity="end"/>
                 <TextView android:layout_width="0dp"
                     android:layout_weight="2"
+                    android:autoLink="web"
                     android:id="@+id/detailsStarred"
                     android:textColorLink="@color/urlColor"
                     android:textColorHighlight="@color/urlclickColor"/>
@@ -122,6 +127,7 @@
                     android:gravity="end"/>
                 <TextView android:layout_width="0dp"
                     android:layout_weight="2"
+                    android:autoLink="web"
                     android:id="@+id/detailsSubscription"
                     android:textColorLink="@color/urlColor"
                     android:textColorHighlight="@color/urlclickColor"/>
@@ -135,6 +141,7 @@
                     android:gravity="end"/>
                 <TextView android:layout_width="0dp"
                     android:layout_weight="2"
+                    android:autoLink="web"
                     android:id="@+id/detailsOrganization"
                     android:textColorLink="@color/urlColor"
                     android:textColorHighlight="@color/urlclickColor"/>
@@ -148,6 +155,7 @@
                     android:gravity="end"/>
                 <TextView android:layout_width="0dp"
                     android:layout_weight="2"
+                    android:autoLink="web"
                     android:id="@+id/detailsRepos"
                     android:textColorLink="@color/urlColor"
                     android:textColorHighlight="@color/urlclickColor"/>
@@ -161,6 +169,7 @@
                     android:gravity="end"/>
                 <TextView android:layout_width="0dp"
                     android:layout_weight="2"
+                    android:autoLink="web"
                     android:id="@+id/detailsEvents"
                     android:textColorLink="@color/urlColor"
                     android:textColorHighlight="@color/urlclickColor"/>
@@ -174,6 +183,7 @@
                     android:gravity="end"/>
                 <TextView android:layout_width="0dp"
                     android:layout_weight="2"
+                    android:autoLink="web"
                     android:id="@+id/detailsRecievedEvents"
                     android:textColorLink="@color/urlColor"
                     android:textColorHighlight="@color/urlclickColor"/>
